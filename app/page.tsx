@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ExternalLink } from "lucide-react";
 
 export default function Home() {
   return (
@@ -7,7 +8,9 @@ export default function Home() {
         href="https://github.com/Inglan/nextjs-app-template"
         target="_blank"
       >
-        <h1 className="text-4xl">nextjs-app-template</h1>
+        <h1 className="text-4xl">
+          nextjs-app-template <ExternalLink className="inline-block" />
+        </h1>
       </Link>
     </div>
   );
